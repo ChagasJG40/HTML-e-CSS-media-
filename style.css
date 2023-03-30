@@ -1,0 +1,27 @@
+body{
+    background-color: blue;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-color: bisque;
+    }
+
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width: 600px) {
+ 
+    body{
+        background-color: green;
+    }
+
+    h1{
+        font-size: 15px;
+        color: aliceblue;
+    }
+}
