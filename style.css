@@ -1,27 +1,21 @@
 body{
-    background-color: blue;
+    background-color: white;
+}
+table, td{
+    border: 2px solid black;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
 }
 
-@media (max-width: 1000px) {
-    body {
-        background-color: bisque;
-    }
-
-}
-@media (min-width: 700px) and (max-width: 1000px) {
-    body {
-        background-color: blueviolet;
-    }
-}
-
-@media (max-width: 600px) {
- 
-    body{
-        background-color: green;
-    }
+@media only print {
 
     h1{
-        font-size: 15px;
-        color: aliceblue;
+        font-size: 25px;
+        font-weight: normal;
+    }
+    table, td {
+        border: 0;
     }
 }
